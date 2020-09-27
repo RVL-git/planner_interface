@@ -1,0 +1,45 @@
+﻿<Window x:Class="Planner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Planner"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="900" ResizeMode="NoResize"
+        Closing="Window_Closing">
+    <Canvas>
+        <Canvas Name="win" Visibility="Visible">
+            <Border Height="379" Width="670" Canvas.Left="21" Canvas.Top="21" BorderBrush="Black" BorderThickness="1">
+                <ScrollViewer VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Disabled" Height="370" Width="660" Canvas.Left="21" Canvas.Top="21" Margin="-1.8,0.2,0.2,-1.6">
+                    <Grid  Name="main">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*" />
+                            <ColumnDefinition Width="8*" />
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="1.5*"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ScrollViewer>
+            </Border>
+            <DatePicker Name="choose"  Canvas.Left="753" Canvas.Top="21" Width="115"></DatePicker>
+            <Button Height="38" Width="115" Canvas.Left="753" Canvas.Top="50" Click="Choose_Click" Content="Найти"></Button>
+            <Button Height="38" Width="115" Canvas.Left="753" Canvas.Top="93" Name="new" Click="New_Click" Content="Добавить"/>
+
+        </Canvas>
+
+
+        <Canvas Name="new_plan" Visibility="Hidden">
+            <Button Name="back" Content="Назад" Click="Back_Click" Height="44" Width="127" Canvas.Left="735" Canvas.Top="126"></Button>
+            <TextBox Name="plan"  Height="318" Width="680" Canvas.Left="28" Canvas.Top="85" TextWrapping="Wrap"></TextBox>
+            <Button Name="add" Content = "Добавить" Click="add_Click" Height="44" Width="127" Canvas.Left="735" Canvas.Top="175"></Button>
+            <TextBox Name="time" Height="26" Width="203" Canvas.Left="119" Canvas.Top="22" TextWrapping="Wrap"/>
+            <Label Content="Время:" Canvas.Left="58" Canvas.Top="21"></Label>
+            <Label Height="27" Name="date" Width="293" Canvas.Left="383" Canvas.Top="19"></Label>
+            <Label Height="27"  Width="293" Content="Расскажиите подробнее о новой задаче:" Canvas.Left="29" Canvas.Top="53"></Label>
+        </Canvas>
+
+
+    </Canvas>
+
+</Window>

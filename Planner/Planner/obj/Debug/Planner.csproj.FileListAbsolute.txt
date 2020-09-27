@@ -1,0 +1,15 @@
+C:\Users\Роман\source\repos\Planner\Planner\bin\Debug\Planner.exe.config
+C:\Users\Роман\source\repos\Planner\Planner\bin\Debug\Planner.exe
+C:\Users\Роман\source\repos\Planner\Planner\bin\Debug\Planner.pdb
+C:\Users\Роман\source\repos\Planner\Planner\obj\Debug\Planner.csprojAssemblyReference.cache
+C:\Users\Роман\source\repos\Planner\Planner\obj\Debug\MainWindow.g.cs
+C:\Users\Роман\source\repos\Planner\Planner\obj\Debug\App.g.cs
+C:\Users\Роман\source\repos\Planner\Planner\obj\Debug\Planner_MarkupCompile.cache
+C:\Users\Роман\source\repos\Planner\Planner\obj\Debug\Planner_MarkupCompile.lref
+C:\Users\Роман\source\repos\Planner\Planner\obj\Debug\MainWindow.baml
+C:\Users\Роман\source\repos\Planner\Planner\obj\Debug\Planner.g.resources
+C:\Users\Роман\source\repos\Planner\Planner\obj\Debug\Planner.Properties.Resources.resources
+C:\Users\Роман\source\repos\Planner\Planner\obj\Debug\Planner.csproj.GenerateResource.cache
+C:\Users\Роман\source\repos\Planner\Planner\obj\Debug\Planner.csproj.CoreCompileInputs.cache
+C:\Users\Роман\source\repos\Planner\Planner\obj\Debug\Planner.exe
+C:\Users\Роман\source\repos\Planner\Planner\obj\Debug\Planner.pdb
